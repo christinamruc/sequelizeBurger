@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eat Da Burger</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/style.css">
+<body>
+	<div class="container">
+	 <br>
+	 	<div class="row">
+	 		<img src="/assets/images/burger.png">
+	 	</div>
+	 	<div>
+	 		<h1 class="red_font">Eat Da Burger!</h1>
+	 	</div>
+	 	<div class="col-md-6">
+	 		<h3 class="blue_font">Ready to Eat</h3>
+	 		<div id="ready_to_eat">
+	 			<div class="input-group">
+	 				<li class="form-control">1. Max's Burger</li>
+	 				<span class="input-group-btn devour-button">
+	 					<button class="btn btn-success" type="button">Devour It!</button>
+	 				</span>
+	 			</div>
+<!--insert ready burgers here -->
+	 			<div class="input-group">
+	 				<li class="form-control">2. Plain Burger</li>
+	 				<span class="input-group-btn devour-button">
+	 					<button class="btn btn-success" type="button">Devour It!</button>
+	 				</span>
+	 			</div>
+	 			<div class="input-group">
+	 				<li class="form-control">3. Double Patty with Cheese Burger</li>
+	 				<span class="input-group-btn devour-button">
+	 					<button class="btn btn-success" type="button">Devour It!</button>
+	 				</span>
+	 			</div>
+	 				
+	 		</div>
+	 	</div>
+<!-- already eaten burgers (right side) -->
+	 	<div class="col-md-6">
+	 		<h3 class="green-font">Already Eaten!</h3>
+	 		<div id="already eaten">
+	 			<div class="input-group">
+	 				<li class="form-control"></li>
+	 			</div>
+		
+			</div>
+		</div>
+<!--input new burgers box -->
+		<div class="row">
+			<div class="form-group col-md-6">
+				<center><label>Request a new burger and place your order!</label></center>
+				<textarea class="form-control" columns="8" rows="4" id="new_burger"></textarea>
+			</div>
+			
+			<center>
+				<button id="submit button" type="button" class="btn btn-danger">Place Order</button>
+			</center>
+		</div>
+
+	</div>
+
+</body>
+</html>
